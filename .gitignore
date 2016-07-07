@@ -1,3 +1,2 @@
-/vagrant_default/.vagrant
-/vagrant_ubuntu/.vagrant
-/vagrant_desktop/.vagrant
+.idea
+node_modules
