@@ -8,8 +8,8 @@ var basename = path.basename(module.filename);
 
 var db = {};
 var DATABASE = "quotes";
-var USERNAME = "vagrant";
-var PASSWORD = "vagrant";
+var USERNAME = "lewrang";
+var PASSWORD = "lewrang";
 
 var sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
     "host": "127.0.0.1",

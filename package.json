@@ -2,17 +2,16 @@
   "name": "quotes-server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://sabinacyz@bitbucket.org/revolve-it/quotes-server.git"
+    "url": "https://github.com/lewrang/aplikacja_mgr.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/revolve-it/quotes-server#readme",
   "dependencies": {
     "body-parser": "^1.15.1",
     "cookie-parser": "^1.4.3",
