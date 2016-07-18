@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jenkins-mocha test/*"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "pg": "^5.0.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.23.3"
+  },
+  "devDependencies": {
+    "jenkins-mocha": "^2.6.0"
   }
 }
