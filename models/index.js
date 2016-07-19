@@ -12,7 +12,7 @@ var USERNAME = "lewrang";
 var PASSWORD = "lewrang";
 
 var sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
-    "host": "127.0.0.1",
+    "host": "db,
     "port": 5432,
     "dialect": "postgres"
 });
